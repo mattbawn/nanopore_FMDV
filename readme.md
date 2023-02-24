@@ -9,7 +9,9 @@ Analysis of nanopoe viral amplicon sequence
 
 Nexflow instructions [here](https://www.nextflow.io/docs/latest/getstarted.html#installation).
 
-`wget -qO- https://get.nextflow.io | bash'
+`wget -qO- https://get.nextflow.io | bash`
 
 then `chmod +x nextflow`
+
+using [viralrecon](https://nf-co.re/viralrecon)
 
