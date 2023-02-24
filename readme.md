@@ -65,3 +65,6 @@ I'll therefore, try some of these things by themselves.
 `pip install NanoPlot`
 
 then `pip install NanoPlot --upgrade`
+
+command `NanoPlot -t 2 --fastq ../raw_fastq_pass/FAQ53111_pass_76d688ef_18.fastq --maxlength 40000 --plots dot --legacy hex` produces some plots but gives error
+`AttributeError: 'list' object has no attribute 'lower'`
