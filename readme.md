@@ -63,3 +63,5 @@ I'll therefore, try some of these things by themselves.
 [Nanoplot](https://github.com/wdecoster/NanoPlot)
 
 `pip install NanoPlot`
+
+then `pip install NanoPlot --upgrade`
