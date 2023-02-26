@@ -86,3 +86,9 @@ command `NanoPlot -t 2 --fastq ../raw_fastq_pass/FAQ53111_pass_76d688ef_18.fastq
 <p float="left">
   <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/Yield_By_Length.png" width="300" />
 </p>
+
+### Arctic
+
+#### Install
+
+`conda install -c bioconda artic`
