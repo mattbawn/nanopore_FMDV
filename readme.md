@@ -60,7 +60,9 @@ I'll therefore, try some of these things by themselves.
 
 ### Nanoplot
 
-[Nanoplot](https://github.com/wdecoster/NanoPlot)
+#### Install
+
+[Nanoplot](https://github.com/wdecoster/NanoPlot) Github.
 
 `pip install NanoPlot`
 
