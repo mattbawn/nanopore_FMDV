@@ -73,3 +73,8 @@ command `NanoPlot -t 2 --fastq ../raw_fastq_pass/FAQ53111_pass_76d688ef_18.fastq
   <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/LengthvsQualityScatterPlot_dot.png" width="512"/>
 </p>
 
+<p float="left">
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/LengthvsQualityScatterPlot_dot.png" width="100" />
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/LengthvsQualityScatterPlot_dot.png" width="100" /> 
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/LengthvsQualityScatterPlot_dot.png" width="100" />
+</p>
