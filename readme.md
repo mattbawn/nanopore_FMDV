@@ -69,9 +69,20 @@ then `pip install NanoPlot --upgrade`
 command `NanoPlot -t 2 --fastq ../raw_fastq_pass/FAQ53111_pass_76d688ef_18.fastq --maxlength 40000 --plots dot --legacy hex` produces some plots but gives error
 `AttributeError: 'list' object has no attribute 'lower'`
 
+**Here are the plots:**
 
 <p float="left">
   <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/LengthvsQualityScatterPlot_dot.png" width="300" />
   <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/Non_weightedHistogramReadlength.png" width="300" /> 
   <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/Non_weightedLogTransformed_HistogramReadlength.png" width="300" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/WeightedHistogramReadlength.png" width="300" />
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/WeightedLogTransformed_HistogramReadlength.png" width="300" /> 
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/WeightedLogTransformed_HistogramReadlength.png" width="300" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/mattbawn/nanopore_FMDV/blob/main/pics/Yield_By_Length.png" width="300" />
 </p>
