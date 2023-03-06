@@ -122,4 +122,33 @@ Your installed version is: 2.17
 
 `git clone https://github.com/artic-network/fieldbioinformatics`
 
+`cd fieldbioinformatics
+python setup.py install`
+
+```
+
+led to error:
+
+```
+
+error: Setup script exited with error in PyVCF setup command: use_2to3 is invalid.
+
+
+```
+
+Info [here](https://stackoverflow.com/questions/69100275/error-while-downloading-the-requirements-using-pip-install-setup-command-use-2), suggested:
+
+`pip install setuptools==58`
+
+which led to:
+
+```
+
+Using /home/home02/fbsmbaw/miniconda3/lib/python3.9/site-packages
+Finished processing dependencies for artic==1.2.3
+
+
+```
+
+
 
