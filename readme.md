@@ -94,3 +94,32 @@ command `NanoPlot -t 2 --fastq ../raw_fastq_pass/FAQ53111_pass_76d688ef_18.fastq
 #### Install
 
 `conda install -c bioconda artic`
+
+errors:
+
+```
+
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: /
+Found conflicts! Looking for incompatible packages.                                                iled
+
+UnsatisfiableError: The following specifications were found to be incompatible with each other:
+
+Output in format: Requested package -> Available versionsThe following specifications were found to incompatible with your system:
+
+  - feature:/linux-64::__glibc==2.17=0
+  - feature:|@/linux-64::__glibc==2.17=0
+
+Your installed version is: 2.17
+
+```
+
+
+`git clone https://github.com/artic-network/fieldbioinformatics`
+
+
