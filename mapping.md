@@ -30,4 +30,6 @@ output
 
 ### sort sam file
 
+From an [example here](http://quinlanlab.org/tutorials/samtools/samtools.html#samtools-sort)
+
 `samtools sort aln_all.sam -o aln_all_sorted.sam`
