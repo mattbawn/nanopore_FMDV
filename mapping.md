@@ -26,3 +26,8 @@ output
 [M::main] Real time: 463.539 sec; CPU: 1245.418 sec; Peak RSS: 2.745 GB
 
 ```
+
+
+### sort sam file
+
+`samtools sort aln_all.sam -o aln_all_sorted.sam`
