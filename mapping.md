@@ -26,6 +26,10 @@ output
 [M::main] Real time: 463.539 sec; CPU: 1245.418 sec; Peak RSS: 2.745 GB
 
 ```
+Based on an answer [here](https://www.biostars.org/p/367626/#367648) You could call variants (using whatever variant calling software you like, GATK, freebayes etc.) from your .bam file and then use vcf-consensus (http://vcftools.sourceforge.net/perl_module.html#vcf-consensus) to build your consensus sequence. The code below should work:
+
+`cat ref.fa | vcf-consensus file.vcf.gz > out.fa`
+
 
 
 ### sort sam file
