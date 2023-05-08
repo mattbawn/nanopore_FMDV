@@ -36,7 +36,7 @@ Based on an answer [here](https://www.biostars.org/p/367626/#367648) You could c
 
 From an [example here](http://quinlanlab.org/tutorials/samtools/samtools.html#samtools-sort)
 
-####`samtools sort aln_all.sam -o aln_all_sorted.sam`
+`samtools sort aln_all.sam -o aln_all_sorted.sam`
 
 get some mapping stats:
 
@@ -45,10 +45,10 @@ get some mapping stats:
 
 Variant Call from sam file based on [this method](https://wikis.utexas.edu/display/bioiteam/Variant+calling+using+SAMtools).
 
-####Change sam to bam so file can be indexed etc:
+#### Change sam to bam so file can be indexed etc:
 
 ` samtools view -bS aln_all_sorted.sam > aln_all_sorted.bam`
 
-####Index  bam File
+#### Index  bam File
 
 `samtools index aln_all_sorted.bam`
