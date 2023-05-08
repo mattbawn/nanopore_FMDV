@@ -45,4 +45,8 @@ get some mapping stats:
 
 Variant Call from sam file based on [this method](https://wikis.utexas.edu/display/bioiteam/Variant+calling+using+SAMtools).
 
+Change sam to bam so file can be indexed etc:
+
+` samtools view -bS aln_all_sorted.sam > aln_all_sorted.bam`
+
 
