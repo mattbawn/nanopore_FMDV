@@ -39,3 +39,6 @@ get some mapping stats:
 `samtools flagstat aln_all_sorted.sam > flagstat_sorted.txt`
 
 
+Variant Call from sam file based on [this method](https://wikis.utexas.edu/display/bioiteam/Variant+calling+using+SAMtools).
+
+
