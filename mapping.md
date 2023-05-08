@@ -33,3 +33,9 @@ output
 From an [example here](http://quinlanlab.org/tutorials/samtools/samtools.html#samtools-sort)
 
 `samtools sort aln_all.sam -o aln_all_sorted.sam`
+
+get some mapping stats:
+
+`samtools flagstat aln_all_sorted.sam > flagstat_sorted.txt`
+
+
